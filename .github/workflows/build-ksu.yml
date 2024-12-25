@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         repository: XxRagulxX/kernel_oneplus_nord
-        ref: fifteen
+        ref: Modified-15
         path: avicii
         fetch-depth: 100
 
