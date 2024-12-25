@@ -10,9 +10,9 @@ jobs:
     - name: Checkout kernel source
       uses: actions/checkout@v3
       with:
-        repository: awakened1712/android_kernel_oneplus_sm8350
-        ref: lineage-20
-        path: sm8350
+        repository: XxRagulxX/kernel_oneplus_nord
+        ref: fifteen
+        path: avicii
         fetch-depth: 100
 
     - name: Checkout gcc toolchain
