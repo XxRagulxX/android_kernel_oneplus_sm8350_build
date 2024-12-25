@@ -30,7 +30,7 @@ jobs:
 
     - name: Apply patches
       run: |
-        cd sm8350
+        cd avicii
         git submodule add https://github.com/tiann/KernelSU.git
         git submodule update --init --recursive
         git apply ../patches/ksu.patch
@@ -39,7 +39,7 @@ jobs:
       run: |
         sudo apt install libdebuginfod-dev
         export PATH="$(pwd)/toolchain/bin:${PATH}"
-        cd sm8350
+        cd avicii
         bash build.sh
         git log --no-decorate --oneline -n 100 > out/ak3/ChangeLog.txt
 
@@ -48,5 +48,5 @@ jobs:
       with:
         name: release-ksu
         path: |
-          sm8350/out/ak3/ChangeLog.txt
-          sm8350/out/ak3/*.zip
+          avicii/out/ak3/ChangeLog.txt
+          avicii/out/ak3/*.zip
