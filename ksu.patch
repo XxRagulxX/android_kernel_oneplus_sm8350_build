@@ -1,7 +1,7 @@
-diff --git a/arch/arm64/configs/vendor/lahaina-qgki_defconfig b/arch/arm64/configs/vendor/lahaina-qgki_defconfig
+diff --git a/arch/arm64/configs/avicii_defconfig b/arch/arm64/configs/avicii_defconfig
 index f9b06453f647..c2d61a79eb57 100644
---- a/arch/arm64/configs/vendor/lahaina-qgki_defconfig
-+++ b/arch/arm64/configs/vendor/lahaina-qgki_defconfig
+--- a/arch/arm64/configs/avicii_defconfig
++++ b/arch/arm64/configs/avicii_defconfig
 @@ -6656,4 +6656,8 @@ CONFIG_ARCH_HAS_DEVMEM_IS_ALLOWED=y
  # CONFIG_DEBUG_WX is not set
  # CONFIG_DEBUG_ALIGN_RODATA is not set
